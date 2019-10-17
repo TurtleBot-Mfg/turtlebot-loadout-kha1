@@ -1,3 +1,9 @@
+turtlebot-loadout-kha1 (0.1.1) unstable; urgency=low
+
+  * Updated config with defaults
+
+ -- Human x Robot <code@hxr.io>  Thu, 17 Oct 2019 18:52:19 -0400
+
 turtlebot-loadout-kha1 (0.1.0) unstable; urgency=low
 
   * Initial build
