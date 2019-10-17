@@ -1,0 +1,21 @@
+Source: turtlebot-loadout-kha1
+Section: science
+Priority: extra
+Maintainer: Human x Robot <code@hxr.io>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 4.1.4
+
+Package: turtlebot-loadout-kha1
+Architecture: any
+Provides: turtlebot-loadout
+Conflicts: turtlebot-loadout
+Replaces: turtlebot-loadout
+Depends: ${misc:Depends}, bash-bashrc.d
+Description: TurtleBot KHA1 Hardware Loadout
+ Exports the TurtleBot Mobile robot hardware configuration
+ .
+ KHA1 Loadout
+   Kobuki Mobile Base
+   Hexagonal Plate Stack
+   Orbec Astra 3D Camera
+   Laptop Battery `/sys/class/power_supply/BAT1`

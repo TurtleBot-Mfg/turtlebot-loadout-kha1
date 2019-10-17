@@ -1,0 +1,4 @@
+export TURTLEBOT_BASE=kobuki
+export TURTLEBOT_STACKS=hexagons
+export TURTLEBOT_3D_SENSOR=astra
+export TURTLEBOT_BATTERY=/sys/class/power_supply/BAT1
